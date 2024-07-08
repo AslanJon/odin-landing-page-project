@@ -100,3 +100,25 @@ h2{
     width: 200px;
     color: #1f2937
 }
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 100px 350px;
+}
+
+p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+}
+
+.quote span{
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+}
